@@ -1,0 +1,368 @@
+/* General Reset and Typography */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    
+}
+.hero .btn ,.navbar .btn{
+    background-color: #f44336 ;
+    border-radius:4px;
+    color:#fff;
+    font-weight: 550;
+}
+.hero .btn.trans-btn{
+    border: 1px solid rgb(51, 51, 51);
+    color:#333;
+    background-color: rgb(221, 221, 221, 0);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-item :hover{
+    border-bottom: 2px solid;
+    border-color: #d32f2f;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.hero {
+    padding: 60px 20px;
+    background: #f9f9f9;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.button.secondary {
+    background: #555;
+}
+
+.button:hover {
+    background: #d32f2f;
+}
+
+.hero-image {
+    margin-top: 40px;
+    max-width: 100%;
+    height: auto;
+}
+
+.features {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background: #fff;
+}
+
+.features .feature {
+    max-width: 30%;
+}
+
+.features h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.features p {
+    font-size: 1em;
+}
+
+.stats {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f1f1f1;
+}
+
+.stats h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.stats .stat {
+    display: inline-block;
+    width: 30%;
+    margin: 20px 0;
+}
+
+.stats h3 {
+    font-size: 2em;
+    color: #f44336;
+    margin-bottom: 10px;
+}
+
+.stats p {
+    font-size: 1em;
+}
+
+.services {
+    text-align: center;
+    padding: 40px 20px;
+    background: #fff;
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.services .service {
+    display: inline-block;
+    width: 45%;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #f1f1f1;
+}
+
+.services h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.services p {
+    font-size: 1em;
+}
+
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f9f9f9;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact button:hover {
+    background: #d32f2f;
+}
+
+.contact .contact-image {
+    margin-top: 40px;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer-copy {
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+/* Additional Custom Styles */
+
+.hero {
+    background: #f9f9f9;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.features {
+    background: #fff;
+}
+
+.features h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.features p {
+    font-size: 1em;
+}
+
+.stats {
+    background: #f1f1f1;
+}
+
+.stats h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.stats h3 {
+    font-size: 2em;
+    color: #f44336;
+    margin-bottom: 10px;
+}
+
+.stats p {
+    font-size: 1em;
+}
+
+.services {
+    background: #fff;
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.services h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.services p {
+    font-size: 1em;
+}
+
+.contact {
+    background: #f9f9f9;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact button:hover {
+    background: #d32f2f;
+}
+
+.contact img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-left: 10px;
+}
